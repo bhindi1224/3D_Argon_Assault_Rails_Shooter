@@ -3,13 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class LoadScene : MonoBehaviour
+public class MusicPlayer : MonoBehaviour
 {
 
 	[SerializeField] private float delay = 3f;
-	
-	// Use this for initialization
-	void Start () {
+
+    // Use this for initialization
+    private void Awake()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
+
+
+
+    void Start () {
 		
 	}
 	
