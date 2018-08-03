@@ -389,7 +389,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   xSpeed: 4
-  xRestriction: 3
+  ySpeed: 4
+  xLimit: 3
+  yUpperLimit: 3
+  yLowerLimit: -3
 --- !u!1 &761885164
 GameObject:
   m_ObjectHideFlags: 0
