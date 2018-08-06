@@ -57,8 +57,9 @@ GameObject:
   - component: {fileID: 33627295542654964}
   - component: {fileID: 23106116374101664}
   - component: {fileID: 65145521352676914}
-  - component: {fileID: 54072819190327852}
   - component: {fileID: 114341668841914508}
+  - component: {fileID: 54343961817384060}
+  - component: {fileID: 114567299799241316}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -180,7 +181,7 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1462488020263862}
   m_Mesh: {fileID: 4300008, guid: 6c11e79470dad4b4bb66b279d2660007, type: 3}
---- !u!54 &54072819190327852
+--- !u!54 &54343961817384060
 Rigidbody:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -191,7 +192,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -320,6 +321,17 @@ MonoBehaviour:
   controlPitchFactor: -20
   positionYawFactor: 6.5
   controlRollFactor: -20
+--- !u!114 &114567299799241316
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1462488020263862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 480387a035cb44b4bb0baf4dcd384477, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!198 &198088514559022006
 ParticleSystem:
   m_ObjectHideFlags: 1
