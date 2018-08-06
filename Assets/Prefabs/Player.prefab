@@ -218,7 +218,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: e333d0ab2a39047429b5e3452c10ec7d, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 0.25
   m_Pitch: 1
   Loop: 0
@@ -314,12 +314,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 932803c88cb79b940bd9f8f14212dabe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  controlSpeed: 20
   xRange: 8
   yRange: 4.5
   positionPitchFactor: -5
-  controlPitchFactor: -20
   positionYawFactor: 6.5
+  controlPitchFactor: -20
   controlRollFactor: -20
 --- !u!114 &114567299799241316
 MonoBehaviour:
