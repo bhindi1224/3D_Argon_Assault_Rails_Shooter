@@ -24,6 +24,12 @@ public class Player : MonoBehaviour
 
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        print("Trigger collision with - " + other);
+    }
+
+
     // Update is called once per frame
     void Update()
     {

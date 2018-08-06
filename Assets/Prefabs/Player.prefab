@@ -56,6 +56,8 @@ GameObject:
   - component: {fileID: 4468092576974744}
   - component: {fileID: 33627295542654964}
   - component: {fileID: 23106116374101664}
+  - component: {fileID: 65145521352676914}
+  - component: {fileID: 54072819190327852}
   - component: {fileID: 114341668841914508}
   m_Layer: 0
   m_Name: Player
@@ -178,6 +180,33 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1462488020263862}
   m_Mesh: {fileID: 4300008, guid: 6c11e79470dad4b4bb66b279d2660007, type: 3}
+--- !u!54 &54072819190327852
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1462488020263862}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &65145521352676914
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1462488020263862}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.0626006, y: 0.96831894, z: 3.306026}
+  m_Center: {x: -0.00000023841858, y: -0.00000025331974, z: -0.000000059604645}
 --- !u!82 &82055993945760568
 AudioSource:
   m_ObjectHideFlags: 1

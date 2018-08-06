@@ -21,6 +21,8 @@ GameObject:
   - component: {fileID: 4655758116509614}
   - component: {fileID: 33645135167930238}
   - component: {fileID: 23854946942751046}
+  - component: {fileID: 65314242017660256}
+  - component: {fileID: 65984540843133676}
   m_Layer: 0
   m_Name: Ship_05
   m_TagString: Untagged
@@ -34,13 +36,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1754910023302818}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 308.78, y: 53.52, z: 366.3}
-  m_LocalScale: {x: 20, y: 20, z: 20}
+  m_LocalRotation: {x: -0.0031361678, y: 0.96521187, z: -0.25709355, w: 0.047530644}
+  m_LocalPosition: {x: 339.69, y: 26.04, z: 574.9}
+  m_LocalScale: {x: 20.000004, y: 20, z: 20.000004}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 29.736002, y: 173.82701, z: -2.013}
 --- !u!23 &23854946942751046
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -83,3 +85,27 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1754910023302818}
   m_Mesh: {fileID: 4300000, guid: ec2ed6fafcc53c64ba923b9ef7d5749f, type: 3}
+--- !u!65 &65314242017660256
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1754910023302818}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.66049886, y: 0.12685725, z: 0.53750336}
+  m_Center: {x: -0.0000019073486, y: 0.000000007450585, z: 0.0000001192093}
+--- !u!65 &65984540843133676
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1754910023302818}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.66049886, y: 0.12685725, z: 0.53750336}
+  m_Center: {x: -0.0000019073486, y: 0.000000007450585, z: 0.0000001192093}
